@@ -1,0 +1,159 @@
+<!-- by Richard Arya Winarta - 121140035 -->
+<!-- Praktikum Pemrograman Web RB - Tugas 2 -->
+
+<!DOCTYPE html>
+
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Tugas Prak 2</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+
+    <body>
+        <!-- navigation -->
+        <div class="nav-container">
+            <div class="profile-container">
+                <div class="image-profile">
+                    <img id="image" src="https://media.tenor.com/ooSa1Kwrg1IAAAAd/nakano-yotsuba.gif" alt="yotsuba">
+                </div>
+                <div class="profile-info">
+                    <h1>Hai, Ini Foto Yotsuba Nakano</h1>
+                    <p>
+                        Nama saya Richard Arya Winarta, NIM saya 121140035
+                        <br>Gambar di samping dari anime The Quintessential Quintuplets ~
+                    </p>
+                </div>
+            </div>
+            <div class="link-container">
+                <ul>
+                    <a href="https://www.itera.ac.id/">Kampus saya</a>
+                    <a href="http://if.itera.ac.id/">Prodi saya</a>
+                    <a href="https://youtube.com">Pergi ke Youtube</a>
+                </ul>
+            </div>
+        </div>
+        <!-- navigation-end -->
+
+        <!-- tentang saya -->
+        <div class="about-container">
+            <h2>Tentang Saya</h2>
+            <p>
+                Salah satu mahasiswa ITERA prodi Teknik Informatika dari angkatan 2021 yang motivasi kuliahnya mulai berkurang.
+                Awalnya, sebelum masuk kampus semangat kuliahnya luar biasa, tapi lama-kelamaan niatnya luntur, hilang ditelan blackhole.
+                Salah satu anggota wibu angkatan covid-19 (jadi wibu karena kelamaan membusuk di kamar), anime pertama yang ditonton pas jaman covid adalah Kingmetsu No Yaibah.
+                Anime rom-com harem terbaik? Oh tentu saja <b>The Quintessential Quintuplets</b> a.k.a <b>Go-toubun no Hanayome </b>(TeamYotsuba).
+            </p>
+            <div class="video">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/3cgaI_skzMU?si=Z5dgb92yQxrvmiQR" allowfullscreen></iframe>
+                <p>Ada opening 5-toubun no Hanayome yang baru gaes.</p>
+            </div>
+        </div>
+        <!-- tentang saya-end -->
+
+        <!-- pengalaman -->
+        <div class="pengalaman-container">
+            <h2>Pengalaman sekolah</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th rowspan="2" id="no">no</th>
+                        <th rowspan="2" id="tingkat">tingkat</th>
+                        <th rowspan="2" id="nama">nama sekolah</th>
+                        <th rowspan="1" colspan="2" id="waktu">waktu</th>
+                    </tr>
+                    <tr>
+                        <th rowspan="1" id="mulai">mulai</th>
+                        <th rowspan="1" id="selesai">selesai</th>
+                    </tr>
+                </thead>
+    
+                <tbody>
+                    <tr>
+                        <td>1</td>
+                        <td>TK</td>
+                        <td>TK Xaverius</td>
+                        <td>2007</td>
+                        <td>2009</td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td>SD</td>
+                        <td>SD Xaverius 1</td>
+                        <td>2009</td>
+                        <td>2015</td>
+                    </tr>
+                    <tr>
+                        <td>3</td>
+                        <td>SMP</td>
+                        <td>SMP Xaverius 1</td>
+                        <td>2015</td>
+                        <td>2018</td>
+                    </tr>
+                    <tr>
+                        <td>4</td>
+                        <td>SMA</td>
+                        <td>SMA Xaverius</td>
+                        <td>2018</td>
+                        <td>2021</td>
+                    </tr>
+                    <tr>
+                        <td>5</td>
+                        <td>Kuliah</td>
+                        <td>Institut Teknologi Sumatera</td>
+                        <td>2021</td>
+                        <td>belum beres</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <!-- pengalaman-end -->
+
+        <!-- hubungi saya -->
+        <div class="hubungi-container">
+            <h2>Hubungi Saya</h2>
+            
+            <form action="">
+                <div id="email">
+                    <p>email:</p>
+                    <input type="string" name="nama" placeholder="masukin email dsni"/>
+                </div>
+                
+                <div id="pertanyaan-1">
+                    <p>Apakah matahari di itera ada dua?</p>
+                    <input type="radio" name="iyah"/>Iyah
+                    <br><input type="radio" name="no"/>No
+                </div>
+
+                <div id="pertanyaan-2">
+                    <h2>Apa itu?</h2>
+                    <div id="isi">
+                        <div id="checkbox">
+                            <input type="checkbox" name="ini"/>
+                            <input type="checkbox" name="itu"/>
+                            <input type="checkbox" name="atu"/>
+                        </div>
+                        <div id="keterangan">
+                            <p>ini</p>
+                            <p>itu</p>
+                            <p>skip</p> 
+                        </div>
+                    </div>
+                </div>
+                
+                <div>
+                    <button type="button">kirim</button>
+                </div>
+            </form>
+        </div>
+        <!-- hubungi saya-end -->
+        
+        <div class="footer-container">
+            <footer>
+                ini footer
+            </footer>
+        </div>
+    </body>
+</html>

@@ -1,0 +1,212 @@
+body{
+    margin: 0;
+    background-color:rgb(191, 250, 204);
+}
+
+p{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+h2{
+    margin: 0;
+}
+
+/* navigation */
+.nav-container{
+    display: flex;
+    flex-direction: column;
+}
+
+.profile-container{
+    background: linear-gradient(180deg, rgb(59,206,71,1) 0%, rgb(64,150,92,1) 100%);
+    display: flex;
+    flex-direction: row;
+    color: rgb(255, 255, 255);
+    padding: 5px;
+}
+
+.image-profile{
+    display: flex;
+    align-items: center;
+    padding: 8pt;
+}
+
+#image{
+    width: 108px;
+    height: 108px;
+    border-radius: 50%;
+}
+
+.profile-info{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0 15px;
+}
+
+.profile-info h1, p{
+    margin: 5px 0;
+    padding: 0;
+}
+
+.link-container{
+    display: flex;
+    background-color: rgb(39, 128, 69);
+    justify-content: end;
+}
+
+ul{
+    list-style: none;
+    display: inline-flex;
+    padding: 0px 20px;
+    margin: 10px 0;
+}
+
+.link-container a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 128px;
+    height: 32px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: 500;
+    margin: 0 5px;
+    color: white;
+}
+
+.link-container a:hover{
+    background-color: rgb(59, 206, 71);
+    transition: .5s ease-in-out;
+}
+/* navigation-end */
+
+/* tentang saya */
+.about-container{
+    background-color: white;
+    margin: 25px 10px;
+    padding: 20px;
+}
+
+.about-container p{
+    margin: 15px 0px;
+    font-size: 13pt;
+}
+
+.video{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px 0px;
+}
+
+.video p{
+    margin-bottom: 0px;
+}
+/* tentang saya-end */
+
+/* pengalaman */
+.pengalaman-container{
+    background-color: white;
+    margin: 25px 10px;
+    padding: 20px;
+}
+
+.pengalaman-container table{
+    width: 100%;
+    background-color: rgb(64, 150, 92);
+    margin-top: 15px;
+    font-size: 14pt;
+}
+
+.pengalaman-container td{
+    background-color: white;
+    padding: 8px;
+    text-align: center;
+}
+
+.pengalaman-container th{
+    padding: 8px;
+    background-color:rgb(191, 250, 204);
+}
+
+.pengalaman-container #no{
+    width: 10%;
+}
+
+.pengalaman-container #tingkat{
+    width: 20%;
+}
+
+.pengalaman-container #nama{
+    width: 30%;
+}
+
+.pengalaman-container #mulai{
+    width: 20%;
+}
+/* pengalaman-end */
+
+/* hubungi-saya */
+.hubungi-container{
+    background-color: white;
+    margin: 25px 10px;
+    padding: 20px;
+}
+
+.hubungi-container #email{
+    display: flex;
+    flex-direction: row;
+    margin: 15px 15px;
+}
+
+.hubungi-container #email input{
+    margin-left: 10px;
+}
+
+.hubungi-container #pertanyaan-1{
+    margin: 5px 15px;
+}
+
+.hubungi-container #pertanyaan-2{
+    margin: 10px 15px;
+}
+
+.hubungi-container #pertanyaan-2 #isi{
+    display: flex;
+}
+
+.hubungi-container #pertanyaan-2 #isi #checkbox{
+    display: flex;
+    flex-direction: column;
+    margin: 5px 0;
+}
+
+#checkbox input{
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.hubungi-container #pertanyaan-2 #isi #keterangan{
+    margin: 1px 0;
+}
+
+.hubungi-container button{
+    background-color: rgb(64, 150, 92);
+    margin: 0 15px;
+    padding: 10px 20px;
+    border-style: none;
+}
+
+.hubungi-container button:active{
+    background-color:rgb(191, 250, 204);
+}
+/* hubungi saya-end */
+
+.footer-container{
+    margin-top: 20px;
+    background-color: rgb(39, 128, 69);
+    text-align: center;
+    padding: 20px 0;
+    color: white;
+}
