@@ -1,0 +1,41 @@
+<!-- by Richard Arya Winarta - 121140035 -->
+<!-- Praktikum Pemrograman Web RB - Tugas 4 -->
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+    </head>
+    <body>
+        <h1>Tugas membuat kalkulator menggunakan Javascript dan console</h1>
+
+        <p>Masukan Bilangan positif:</p> <br>
+        <label for="angka">
+            <input type="number" id="angka">
+        </label>
+        <button onclick="ganjilGenap()">Hitung</button>
+
+        <script>
+            function ganjilGenap(){
+                n = document.getElementById("angka").value;
+                hitungGenap = 0
+                hitungGanjil = 0
+                
+                if(n>0){
+                    for(i=1 ; i<=n ; i++){
+                        if(i%2==0){
+                            hitungGenap++
+                        }else{
+                            hitungGanjil++
+                        }                    
+                    }
+                    alert(`Jumlah bilangan ganjil adalah : ${hitungGanjil}\nJumlah bilangan genap adalah : ${hitungGenap}`)
+                }else{
+                    alert(`Hanya diperbolehkan bilangan positif lebih dari 0`)
+                }    
+            }
+        </script>
+    </body>
+</html>
