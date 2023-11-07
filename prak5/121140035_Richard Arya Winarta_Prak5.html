@@ -1,0 +1,60 @@
+<!-- by Richard Arya Winarta - 121140035 -->
+<!-- Praktikum Pemrograman Web RB - Tugas 5 -->
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Kalkulator</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+
+    <body onload="clears()">
+        <h1>Kalkulator Sederhana</h1>
+        <div class="container">
+            <div class="inner-up">
+                <div class="screen-digit">
+                    <p id="screen"></p>
+                </div>
+                <div class="screen-operator">
+                    <p id="screen-op"></p>
+                </div>
+            </div>
+            <div class="inner-down">
+                <div class="left">
+                    <div class="button-group">
+                        <button onclick="addnumber(7)">7</button>
+                        <button onclick="addnumber(8)">8</button>
+                        <button onclick="addnumber(9)">9</button>
+                        <button onclick="setoperation('/')">/</button>
+                    </div>
+                    <div class="button-group">
+                        <button onclick="addnumber(4)">4</button>
+                        <button onclick="addnumber(5)">5</button>
+                        <button onclick="addnumber(6)">6</button>
+                        <button onclick="setoperation('x')">x</button>
+                    </div>
+                    <div class="button-group">
+                        <button onclick="addnumber(1)">1</button>
+                        <button onclick="addnumber(2)">2</button>
+                        <button onclick="addnumber(3)">3</button>
+                        <button onclick="setoperation('-')">-</button>
+                    </div>
+                    <div class="button-group">
+                        <button onclick="addcomma()">,</button>
+                        <button onclick="addnumber(0)">0</button>
+                        <button onclick="result()">=</button>
+                        <button onclick="setoperation('+')">+</button>
+                    </div>
+                </div>
+                <div class="right">
+                    <button onclick="clears()" id="clear">Clear</button>
+                    <button onclick="del()" id="del">Del</button>
+                </div>
+            </div>
+        </div>
+
+        <script src="calc.js"></script>
+    </body>
+</html>

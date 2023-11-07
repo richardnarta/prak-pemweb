@@ -1,0 +1,109 @@
+/* by Richard Arya Winarta - 121140035
+Praktikum Pemrograman Web RB - Tugas 5 */
+
+*{
+    margin: 0;
+}
+
+body{
+    background-color: cadetblue;
+}
+
+h1{
+    margin: 10px;
+}
+
+.container{
+    background-color: grey;
+    width: fit-content;
+    height: fit-content;
+    padding: 10px;
+    border-radius: 5px;
+    margin: 20px;
+}
+
+.inner-up{
+    display: flex;
+    width: auto;
+    padding: 5px 0px;
+    align-items: center;
+    height: auto;
+}
+
+.screen-digit{
+    display: flex;
+    width: 360px;
+    height: 80px;
+    padding: 0px 6px;
+    margin: 0px 12px;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 5px;
+    background-color: bisque;
+}
+
+.screen-digit p{
+    height: auto;
+    font-family: 'Courier New';
+    font-weight: 520;
+    font-size: 48pt;
+    text-align: right;
+    overflow: auto;
+    overflow-y: hidden;
+}
+
+.screen-operator{
+    display: flex;
+    width: auto;
+    height: 80px;
+    width: 80px;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 5px;
+    background-color: bisque;
+}
+
+.screen-operator p{
+    font-family: 'Courier New';
+    font-weight: 520;
+    
+    text-align: center;
+    font-size: 48pt;
+}
+
+.inner-down{
+    margin: 5px;
+    display: flex;
+}
+
+.inner-down .button-group{
+    padding: 3px;
+}
+
+.inner-down button{
+    width: 75px;
+    height: 75px;
+    border-radius: 5px;
+    margin: 3px;
+    font-size: 24pt;
+    background-color: bisque;
+}
+
+.inner-down button:hover{
+    background-color:burlywood;
+}
+
+.inner-down .right{
+    display: flex;
+    flex-direction: column;
+}
+
+.inner-down #clear{
+    width: 128px;
+    margin-top: 6px;
+}
+
+.inner-down #del{
+    width: 128px;
+    margin-top: 9px;
+}
